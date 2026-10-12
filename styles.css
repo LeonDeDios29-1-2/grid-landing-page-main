@@ -24,4 +24,11 @@ header{
     margin-right: 50px;
     justify-content: space-between;
 }
-
+main{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
