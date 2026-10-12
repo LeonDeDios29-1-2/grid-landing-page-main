@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--White);
+    font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -14,5 +16,12 @@
 }
 body {
     background-color: var(--Blue700);
-
 }
+header{
+    display: flex;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
