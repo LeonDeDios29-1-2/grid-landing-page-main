@@ -28,7 +28,17 @@ main{
     display: flex;
     justify-content: center;
 }
-.menu{
+.descripcion{
     display: flex;
     justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    background-color: red;
+    padding: 50px;
+}
+.descripcion p{
+    margin-right: 50px;
+}
+.menu {
+    background-color: greenyellow;
 }
