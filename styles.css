@@ -4,6 +4,7 @@
     box-sizing: border-box;
     color: var(--White);
     font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
 
 :root {
@@ -16,10 +17,12 @@
 }
 body {
     background-color: var(--Blue700);
+
 }
 header{
     display: flex;
     margin: 15px;
+    padding: 15px;
     margin-left: 50px;
     margin-right: 50px;
     justify-content: space-between;
@@ -33,12 +36,19 @@ main{
     justify-content: center;
     text-align: left;
     flex-direction: column;
+    width: 40%;
     background-color: red;
-    padding: 50px;
+    
+}
+.descripcion h3{
+    padding-left: 50px;
+    font-size: 50px;
 }
 .descripcion p{
-    margin-right: 50px;
+    padding-left: 50px;
+    margin-right: 25%;
 }
 .menu {
     background-color: greenyellow;
+    width: 60%;
 }
